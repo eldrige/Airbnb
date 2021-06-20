@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
   img: {
     width: '100%',
     // height: 100,
-    backgroundColor: 'green',
+    // backgroundColor: 'green',
     aspectRatio: 3 / 2,
     resizeMode: 'cover',
     borderRadius: 10,
