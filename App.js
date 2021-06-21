@@ -26,11 +26,12 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import GuestScreen from './src/screens/Guests';
 // import HomeScreen from './src/screens/home';
 // import Post from './src/components/posts/index';
 // import SearchResults from './src/screens/searchResults';
 
-import DestinationSearchScreen from './src/screens/destinationSearch';
+// import DestinationSearchScreen from './src/screens/destinationSearch';
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -44,7 +45,8 @@ const App: () => Node = () => {
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       {/* <HomeScreen /> */}
       {/* <SearchResults /> */}
-      <DestinationSearchScreen />
+      {/* <DestinationSearchScreen /> */}
+      <GuestScreen />
     </SafeAreaView>
   );
 };
