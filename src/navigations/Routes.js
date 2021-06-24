@@ -19,10 +19,17 @@ const Routes = props => {
           }}
         />
         <Stack.Screen
-          name={'Guests'}
+          name={'Guest'}
           component={GuestScreen}
           options={{
             title: 'How many people?',
+          }}
+        />
+        <Stack.Screen
+          name={'Destination Search'}
+          component={DestinationSearchScreen}
+          options={{
+            title: 'Where to?',
           }}
         />
       </Stack.Navigator>

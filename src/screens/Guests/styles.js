@@ -1,6 +1,12 @@
-import {StyleSheet} from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
+const {width} = Dimensions.get('screen');
 
 const styles = StyleSheet.create({
+  container: {
+    display: 'flex',
+    flex: 1,
+    justifyContent: 'space-between',
+  },
   item: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -40,6 +46,19 @@ const styles = StyleSheet.create({
     fontSize: 15,
     fontWeight: 'bold',
     color: 'black',
+  },
+  searchBtn: {
+    backgroundColor: '#f15454',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginHorizontal: 20,
+    height: 50,
+    marginBottom: 20,
+    borderRadius: 10,
+  },
+  searchBtnText: {
+    color: 'white',
+    fontSize: 20,
   },
 });
 

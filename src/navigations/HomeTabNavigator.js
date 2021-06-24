@@ -18,8 +18,8 @@ const HomeTabNavigator = () => {
         name={'Explore'}
         component={HomeScreen}
         options={{
-          tabBarIcon: ({color: string}) => (
-            <Fontisto name="search" size={25} color={'grey'} />
+          tabBarIcon: ({color}) => (
+            <Fontisto name="search" size={25} color={color} />
           ),
         }}
       />
@@ -27,8 +27,8 @@ const HomeTabNavigator = () => {
         name={'Saved'}
         component={HomeScreen}
         options={{
-          tabBarIcon: ({color: string}) => (
-            <FontAwesome name="heart-o" size={25} color={'grey'} />
+          tabBarIcon: ({color}) => (
+            <FontAwesome name="heart-o" size={25} color={color} />
           ),
         }}
       />
@@ -36,8 +36,8 @@ const HomeTabNavigator = () => {
         name={'Airbnb'}
         component={HomeScreen}
         options={{
-          tabBarIcon: ({color: string}) => (
-            <FontAwesome5 name="airbnb" size={25} color={'grey'} />
+          tabBarIcon: ({color}) => (
+            <FontAwesome5 name="airbnb" size={25} color={color} />
           ),
         }}
       />
@@ -45,8 +45,8 @@ const HomeTabNavigator = () => {
         name={'Messages'}
         component={HomeScreen}
         options={{
-          tabBarIcon: ({color: string}) => (
-            <Feather name="message-square" size={25} color={'grey'} />
+          tabBarIcon: ({color}) => (
+            <Feather name="message-square" size={25} color={color} />
           ),
         }}
       />
@@ -54,8 +54,8 @@ const HomeTabNavigator = () => {
         name={'Profile'}
         component={HomeScreen}
         options={{
-          tabBarIcon: ({color: string}) => (
-            <EvilIcons name="user" size={30} color={'grey'} />
+          tabBarIcon: ({color}) => (
+            <EvilIcons name="user" size={30} color={color} />
           ),
         }}
       />
