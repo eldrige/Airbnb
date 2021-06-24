@@ -2,8 +2,10 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 import DestinationSearchScreen from '../screens/destinationSearch';
+import SearchResults from '../screens/searchResults';
 import GuestScreen from '../screens/Guests';
 import HomeTabNavigator from './HomeTabNavigator';
+import HomeScreen from '../screens/home';
 
 const Stack = createStackNavigator();
 
@@ -18,11 +20,18 @@ const Routes = props => {
             headerShown: false,
           }}
         />
+        {/* <Stack.Screen
+          name={'Home'}
+          component={HomeScreen}
+          options={{
+            headerShown: false,
+          }}
+        /> */}
         <Stack.Screen
-          name={'Guest'}
+          name={'Guests'}
           component={GuestScreen}
           options={{
-            title: 'How many people?',
+            title: 'How many people ?',
           }}
         />
         <Stack.Screen
