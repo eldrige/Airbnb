@@ -74,6 +74,7 @@ const GuestScreen = () => {
       </View>
       <View>
         <Pressable
+          // nested navigation
           style={styles.searchBtn}
           onPress={() =>
             navigation.navigate('Home', {
