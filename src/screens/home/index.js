@@ -20,7 +20,7 @@ const HomeScreen = props => {
         style={styles.img}>
         <Text style={styles.title}>Go Near</Text>
         <Pressable style={styles.btn} onPress={() => console.log('Yeah')}>
-          <Text style={styles.btnText}>Explore More</Text>
+          <Text style={styles.btnText}>Explore nearby stays</Text>
         </Pressable>
       </ImageBackground>
     </View>

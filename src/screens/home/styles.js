@@ -18,16 +18,17 @@ const styles = StyleSheet.create({
   btn: {
     backgroundColor: 'white',
     width: 200,
-    height: 30,
+    height: 40,
     marginLeft: 20,
     marginTop: 10,
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 20,
+    paddingHorizontal: 10,
   },
   btnText: {
     fontWeight: 'bold',
-    fontSize: 20,
+    fontSize: 18,
   },
   searchBtn: {
     backgroundColor: 'white',
@@ -42,7 +43,9 @@ const styles = StyleSheet.create({
     width: width - 40,
     marginHorizontal: 20,
   },
-  searchTxt: {},
+  searchTxt: {
+    marginLeft: 15,
+  },
 });
 
 export default styles;
