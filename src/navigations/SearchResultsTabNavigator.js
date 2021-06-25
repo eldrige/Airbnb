@@ -4,9 +4,15 @@ import SearchResults from '../screens/searchResults';
 
 const Tab = createMaterialTopTabNavigator();
 
-const SearchResultsTabNavigator = () => {
+const SearchResultsTabNavigator = props => {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      tabBarOptions={{
+        activeTintColor: '#f15454',
+        indicatorStyle: {
+          backgroundColor: '#f15454',
+        },
+      }}>
       <Tab.Screen name={'list'} component={SearchResults} />
       <Tab.Screen name={'map'} component={SearchResults} />
     </Tab.Navigator>

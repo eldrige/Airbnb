@@ -6,6 +6,8 @@ const styles = StyleSheet.create({
   },
   textInput: {
     fontSize: 20,
+    marginTop: 100,
+    marginBottom: 10,
   },
   iconContainer: {
     backgroundColor: '#d4d4d4',
