@@ -3,11 +3,14 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     margin: 20,
+    // backgroundColor: 'grey',
+    height: '100%',
   },
   textInput: {
     fontSize: 20,
-    marginTop: 100,
+    marginTop: 10,
     marginBottom: 10,
+    textAlign: 'center',
   },
   iconContainer: {
     backgroundColor: '#d4d4d4',
@@ -18,10 +21,10 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
     alignItems: 'center',
-    marginVertical: 10,
+    marginVertical: 5,
     borderBottomWidth: 1,
     borderBottomColor: 'lightgrey',
-    paddingVertical: 10,
+    paddingVertical: 5,
   },
   locationText: {},
 });
